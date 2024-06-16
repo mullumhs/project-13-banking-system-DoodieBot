@@ -6,7 +6,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 class Personal_Account:
-    def __init__(self, name, acc_no, balance,):
+    def __init__(self, name, acc_no, balance):
         self.set_name=name
         self.set_acc_no(acc_no)
         self.set_balance()
