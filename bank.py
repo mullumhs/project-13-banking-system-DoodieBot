@@ -16,5 +16,8 @@ class BankManager:
                 return account
         return False
     
-    def add_account(Self, account):
-        
+    def add_account(Self, new_account):
+        if new_account == Self.existing_account:
+            raise ValueError("no bueno")
+        else:
+            Self.account.append(new_account) 
